@@ -10,7 +10,6 @@ public class pokeImages {
     Scanner scan = new Scanner(fileName);
         int i = 0;
         while(scan.hasNext() && i < 152){
-            System.out.println(scan.nextLine());
             i++;
         }
         scan.close();
